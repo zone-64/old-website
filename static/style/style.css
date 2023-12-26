@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "TimesNew";
+  src: url("pixelated-times-new-roman/pixelated-times-new-roman.ttf");
+}
+
+@font-face {
+  font-family: "Unifont";
+  src: url("unifont.otf");
+}
+
+header {
+  overflow: hidden;
+  background-color: black;
+  color: green;
+  border-color: green;
+
+  border-width: 0px;
+  border-bottom-width: 10px;
+  border-style: ridge;
+  align-content: center;
+}
+
+footer {
+  overflow: hidden;
+  background-color: black;
+  color: green;
+  align-content: center;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+  color: green;
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar li {
+  overflow: hidden;
+  display: inline-block;
+  background-color: black;
+  color: green;
+  border-style: ridge;
+  border-width: 0px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  border-color: green;
+  padding: 3px;
+}
+
+#navbar a {
+  color: green;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#content {
+  background-color: #000000;
+  color: green;
+}
+
+#content a {
+  color: cyan;
+}
+
+#links {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#contacts ul {
+  display: block;
+  list-style-type: none;
+  text-align: center;
+}
